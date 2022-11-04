@@ -198,10 +198,8 @@ Sub Rename
    Loop Until Ischarwaiting() = 1
 
    Do
-        ''If Ischarwaiting() = 1 Then
       A = Inkey()
       Text = Text + Chr(a)
-        ''End If
       Waitms 10
    Loop Until Ischarwaiting() = 0
 
@@ -211,7 +209,7 @@ Sub Rename
    Waitms 250
 
 
-      ''Warte auf neue Daten
+   ''Warte auf neue Daten
    Do
    Loop Until Ischarwaiting() = 1
 
